@@ -1,0 +1,96 @@
+
+pdf package installed
+composer require barryvdh/laravel-dompdf
+https://www.tutsmake.com/laravel-8-pdf-generate-pdf-using-dompdf-example/
+------------------------------------
+pdf excel installed
+composer require maatwebsite/excel
+https://docs.laravel-excel.com/3.1/getting-started/installation.html
+
+https://jslim.net/blog/2015/12/28/laravel-dompdf-set-custom-paper-size/
+
+------------------------------------
+http://davidstutz.github.io/bootstrap-multiselect/#configuration-options-onDropdownHide
+
+https://www.daterangepicker.com/
+
+------------------------------------
+AWS phpmyadmin
+----------------------------
+url: http://13.233.42.155/phpmyadmin_hidden
+ask in promt user :  pmauser
+ask in promt password : 1234567890$
+in login page user :  acc
+in login page password - 123$Acc$JfT7
+
+----------------------------
+----------------------------
+url: http://13.233.42.155/phpmyadmin_hidden
+ask in promt user :  pmauser
+ask in promt password : 1234567890$
+in login page user :  phpmyadmin
+in login page password - Pranav@123
+----------------------------
+
+------------------------------------
+
+
+
+------------------------------------
+
+
+------------------------------------
+
+
+30-03-2021
+
+INSERT INTO `sub_category` (`id`, `main_category_id`, `name`, `name2`, `details`, `is_active`, `created_at`, `updated_at`, `is_editable`) VALUES (NULL, '1', 'Transfer From Bank, Credit Card or Loan', 'Transfer From XXXXXX Bank', 'Transfer From XXXXXX Bank', '1', '2021-03-30 15:31:48', '2021-03-30 15:31:48', '0'), (NULL, '2', 'Transfer To Bank, Credit Card or Loan', 'Transfer To XXXXXX Bank', 'Transfer To XXXXXX Bank', '1', '2021-03-30 15:31:48', '2021-03-30 15:31:48', '0');
+ALTER TABLE `transactions`  ADD `accounts_or_banks_id_transfer_fromto` INT(11) NULL DEFAULT NULL COMMENT 'null for not transfer type else bank id'  AFTER `accounts_or_banks_id`;
+
+
+
+
+ALTER TABLE `invoices` CHANGE `invoice_comment` `invoice_comment` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL COMMENT 'remarks';
+ALTER TABLE `invoices` CHANGE `footer_comment` `footer_comment` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://accounting.hostappshere.co.in/public/adminview/invoice-list
+db===hostapps_kipu
+kipudbusername
+Ny397c$u
+103.160.144.75
+ftpkipuplesk
+$Wx66mq6

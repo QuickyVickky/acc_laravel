@@ -1,0 +1,1 @@
+Please Use This OTP : {{ $otp }} <br> Thank You. 

@@ -1,0 +1,620 @@
+/*---------------------*/
+.fullwidthbtncls{
+    width: 100%;
+}
+/*---------------------*/
+.margintop-bottom{
+    margin: 4px 0;
+}
+.padding-left-right{
+    padding: 0 4px;
+}
+.margin-left-right{
+    margin: 0 4px;
+}
+label{
+    margin: 0;
+}
+.button-back{
+    background-color: unset;
+    border: unset;
+}
+.text-align-right-new{
+    text-align: right;
+}
+.table-hover tbody tr:hover{
+    background-color: unset;
+}
+.invoice-page-main{
+    display: none;
+}
+.invoice-page-main.active{
+    display: block;
+}
+.footer-box{
+    display: none;
+}
+.footer-box.active{
+    display: block;
+}
+.page-header-button{
+    padding: 8px 20px;
+}
+.invoice-top-button{
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #ecf0f3;
+    transition: border-radius 0s;
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    padding: 12px 16px;
+    background: #fff;
+    border-radius: 8px;
+    transition: border-radius .3s step-end;
+}
+.invoice-top-add{
+    color: #1c252c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__dropzone{
+    cursor: pointer;
+    width: 300px;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px dashed #136acd;
+    margin-left: 0;
+}
+.invoice-page-main {
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    padding: 16px;
+}
+.invoice-page-address{
+    text-align: right;
+}
+.invoice-default-input input{
+    text-align: right;
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    
+}
+.invoice-default-input input:first-child{
+    font-size: 25px;
+}
+
+.page-address-test{
+    color: black;
+}
+.page-address-add{
+    color: black;
+}
+.page-address-edit{
+    background-color: unset;
+    border: unset;
+    cursor: pointer;
+    color: blue;
+}
+
+.add-custmor-detile{
+    background-color: white;
+    padding: 16px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.custmor-detile{
+    background-color: unset;
+    border: 1px solid #b2c2cd;
+    width: 300px;
+    height: 160px;
+    border-radius: 4px;
+}
+.invoice-flex-sec{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.invoice-flex-width65{
+    width: 100%;
+    max-width: 65%;
+}
+.invoice-flex-width35{
+    width: 100%;
+    max-width: 35%;
+}
+.invoice-input-size{
+    max-width: 180px;
+    width: 100%;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    margin: 0 0 0 auto;
+    padding: 8px 10px 6px;
+}
+.invoice-date-add{
+    position: relative;
+}
+.invoice_datile-all{
+    text-align: right;
+}
+.invoice-date-input{
+    cursor: pointer;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px 6px;
+    min-height: 40px;
+    margin: 0;
+    padding-right: 40px;
+}
+.invoice-date-add-icone{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    border-color: unset;
+    border: unset;
+}
+.nav-justified .nav-item, .nav-justified>.nav-link{
+    flex-grow: 0;
+    flex-basis: unset;
+}
+.edit-detile{
+    padding: 6px 12px;
+    background-color: #ecf0f3;
+}
+.edit-detile-bar{
+    border: unset !important;
+    background-color: #ecf0f3 !important;
+}
+.table thead{
+    background-color: #ecf0f3;
+}
+/* .table-add{
+    overflow: visible!important;
+    position: relative;
+    background-color: inherit;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    vertical-align: bottom;
+    text-align: left;
+}  */
+/* .wv-table__cell{
+    padding: 8px 4px;
+    overflow: visible!important;
+    position: relative;
+    background-color: inherit;
+    text-align: left;
+}
+.invoice-datile-imput-name{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 4px 0;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px 6px;
+    transition: border .1s linear;
+    min-height: 40px;
+    width: 100%;
+    min-width: 160px;
+}
+.input-textarea{
+    height: 38px;
+    max-width: 320px;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px 6px;
+    transition: border .1s linear;
+    min-height: 40px;
+    width: 100%;
+    min-width: 160px;
+    resize: none;
+}
+.table td, .table th{
+    padding: unset;
+}
+.product-select{
+    text-align: center;
+    
+}
+.invoice-edit-op{
+    color: #136acd;
+}
+.invoice-table-add{
+    color: #136acd;
+    padding: 13px 15px;
+}
+.input-item-name{
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+    cursor: text;
+    padding: 8px 10px 6px;
+    transition: border .1s linear;
+    min-height: 40px;
+    width: 100%;
+    min-width: 160px;
+} */
+
+.input-name-add{
+    display: flex;
+    
+}
+.input-type-name{
+    width: 100%;
+    max-width: 300px;
+}
+.total-max-new{
+    width: 47%;
+}
+.input-type-textarea{
+    resize: none !important;
+    height: 41px !important;
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.quantity-number{
+    max-width: 80px;
+}
+.price-input{
+    max-width: 80px;
+}
+.table td{
+    border-top: unset;
+}
+.table-body{
+    background-color: #f0f4fa;
+}
+
+.tex-select{
+    display: flex;
+    align-items: center;
+}
+.select-text-value{
+    padding-left: 10px;
+    width: 100%;
+    max-width: 200px;
+}
+.select-text-value-box{
+    border: 1px solid #b2c2cd;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px 6px 10px;
+}
+.select-text-value-title{
+    color: #c6cccd;
+}
+.button-color{
+    color: #136acd !important;
+    cursor: pointer;
+}
+.select-taxt-drop{
+    display: none;
+}
+.select-taxt-drop.active{
+    display: block;
+}
+.select-drop-ul{
+    padding: unset;
+}
+.select-drop-span-hover:hover{
+    background-color: #1f7eea;
+    color: white;
+}
+.secect-text-new-test{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b2c2cd;
+}
+.table td, .table th, .table.table-center td, .table.table-center th, .table td, .table th{
+    vertical-align: top !important;
+}
+.margin-right{
+    margin-right: 14px;
+}
+.select-drop-span-hover{
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.select-drop-button-new{
+    width: 100%;
+    padding: 10px;
+}
+.select-drop-button-new:hover{
+    background-color: #1f7eea;
+    color: white;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.button-color-trash:hover{
+    color: #1f7eea !important;
+    cursor: pointer;
+}
+.edit-button{
+    color: #136acd;
+    cursor: pointer;
+}
+.edit-button:hover{
+    color: #1f7eea;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.add-item{
+    text-align: center;
+    background-color: white;
+    border-top: 1px solid #b2c2cd !important;
+    border-bottom: 1px solid #b2c2cd;
+}
+.display-flex-new{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sub-total-title{
+    max-width: 200px;
+    width: 100%;
+    text-align: left;
+}
+.sub-total-amount{
+    width: 100%;
+    max-width: 200px;
+    text-align: left;
+}
+.table-total{
+    text-align: right;
+}
+.total-main-usd{
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+}
+.usd-total-box{
+    max-width: 500px !important;
+    width: 100%;
+}
+.table-total-margin{
+    margin: 30px 0;
+}
+.table-total-now{
+    margin: 0 0 0 auto;
+}
+.note-textarea{
+    width: 100%;
+    resize: none;
+}
+.border-new-notes{
+    border-top: 1px solid #b2c2cd;
+    border-bottom: 1px solid #b2c2cd;
+}
+.footer-box{
+    border: 1px solid  #b2c2cd;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.page-botoom-button{
+    margin: 20px 0;
+    text-align: right;
+}
+.page-header-button{
+    background-color: #136acd;
+    border: 1px solid #136acd;
+}
+.page-header-button:hover{
+    background-color: #0f529f;
+    border: 1px solid #0f529f;
+}
+.select-taxt-drop-menu{
+    width: 100%;
+    background-color: white;
+}
+.select-drop-search{
+    width: 100%;
+    border: 1px solid #b2c2cd;
+    border-radius: 4px;
+}
+.total-usd-dropdown{
+    width: 240px;
+    padding-left: 10px;
+    height: auto;
+    position: absolute;
+}
+.total-usd-drop-border{
+    border: 1px solid;
+    width: 272px;
+    background-color: white;
+}
+.total-usd-search{
+    width: 100%;
+    border: 1px solid #b2c2cd;
+}
+.total-usd-ul{
+    padding: 6px;
+}
+.total-usd-ul span{
+    cursor: pointer;
+}
+.total-usd-dropdown{
+    display: none;
+}
+.total-usd-dropdown.active{
+    display: block;
+}
+
+table td {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+
+/*--------transaction css--------*/
+
+.card-center-transaction{
+    position: relative;
+}
+.transaction-box{
+    max-width: 480px;
+    border-radius: 4px;
+    border: 1px solid;
+    padding: 10px 15px;
+    justify-content: space-between;
+    background-color: unset;
+    color: black;
+    display: flex;
+    width: 100%;
+}
+.transaction-box:hover{
+    background-color: unset;
+    color: #000;
+    border-color: #000;
+}
+.transaction-box::after{
+    content: unset;
+}
+
+.transaction-toggle-arrow{
+    padding-left: 10px;
+}
+
+.transaction-toggle-menu-box{
+    width: 100%;
+    max-width: 480px;
+    border-radius: unset;
+}
+.transaction-toggle-menu-cash{
+    justify-content: space-between;
+    color: #000;
+    cursor: pointer;
+}
+.transaction-toggle-menu-cash p{
+    margin-bottom: 0px;
+    color: #242d34;
+    font-weight: 400;
+}
+.transaction-toggle-menu-cash p:hover{
+    color: #242d34;
+}
+.transaction-menu-label{
+    padding: 10px 15px;
+}
+.transaction-menu-label label{
+    color: #000;
+    font-weight: 700;
+}
+.transaction-hr-margin{
+    margin: 0;
+}
+.transaction-all-a-c{
+    background-color: #136acd;
+}
+.transaction-all-a-c .transaction-toggle-menu-cash p{
+    color: #fff;
+}
+.transaction-toggle-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+    max-width: 480px;
+}
+.transaction-toggle-menu.active{
+    display: block;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1660px){
+    .invoice-flex-width65{
+        max-width: 60%;
+    }
+    .invoice-flex-width35{
+        max-width: 40%;
+    }
+    .invoice-flex-sec{
+        justify-content: flex-end;
+    }
+    .invoice-input-size{
+        max-width: 180px;
+    }
+}
+@media only screen and (max-width: 1460px){
+    .invoice-flex-width65{
+        max-width: 40%;
+    }
+    .invoice-flex-width35{
+        max-width: 60%;
+    }
+    .invoice-flex-sec{
+        justify-content: flex-end;
+    }
+    .invoice-input-size{
+        max-width: 180px;
+    }
+}
+@media only screen and (max-width: 1160px){
+    .invoice-flex-width65{
+        max-width: 30%;
+    }
+    .invoice-flex-width35{
+        max-width: 70%;
+    }
+    .invoice-flex-sec{
+        justify-content: flex-end;
+    }
+    .invoice-input-size{
+        max-width: 180px;
+    }
+    .logo__dropzone{
+        max-width: 200px;
+    }
+    .custmor-detile{
+        max-width: 200px;
+    }
+    .card-body{
+        padding: unset;
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .page-wrapper > .content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .invoice-page, .invoice-default-input input, .page-address-edit, .invoice-add{
+        font-size: 14px;
+    }
+    .invoice-default-input input:first-child{
+        font-size: 20px;
+    }
+
+}
